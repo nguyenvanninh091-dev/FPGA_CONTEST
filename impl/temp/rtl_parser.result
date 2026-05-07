@@ -1,0 +1,78 @@
+[
+ {
+  "InstFile" : "D:/Gowin/wdt/src/top.v",
+  "InstLine" : 1,
+  "InstName" : "watchdog_top",
+  "ModuleFile" : "D:/Gowin/wdt/src/top.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "watchdog_top",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/Gowin/wdt/src/top.v",
+    "InstLine" : 57,
+    "InstName" : "sync1",
+    "ModuleFile" : "D:/Gowin/wdt/src/debounce.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "sync_debounce"
+   },
+   {
+    "InstFile" : "D:/Gowin/wdt/src/top.v",
+    "InstLine" : 65,
+    "InstName" : "sync2",
+    "ModuleFile" : "D:/Gowin/wdt/src/debounce.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "sync_debounce"
+   },
+   {
+    "InstFile" : "D:/Gowin/wdt/src/top.v",
+    "InstLine" : 73,
+    "InstName" : "uart1",
+    "ModuleFile" : "D:/Gowin/wdt/src/uart.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "uart",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/Gowin/wdt/src/uart.v",
+      "InstLine" : 27,
+      "InstName" : "rx1",
+      "ModuleFile" : "D:/Gowin/wdt/src/uart_rx.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "uart_rx"
+     },
+     {
+      "InstFile" : "D:/Gowin/wdt/src/uart.v",
+      "InstLine" : 35,
+      "InstName" : "engine1",
+      "ModuleFile" : "D:/Gowin/wdt/src/uart_engine.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "uart_engine"
+     },
+     {
+      "InstFile" : "D:/Gowin/wdt/src/uart.v",
+      "InstLine" : 54,
+      "InstName" : "tx1",
+      "ModuleFile" : "D:/Gowin/wdt/src/uart_tx.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "uart_tx"
+     }
+    ]
+   },
+   {
+    "InstFile" : "D:/Gowin/wdt/src/top.v",
+    "InstLine" : 87,
+    "InstName" : "reg1",
+    "ModuleFile" : "D:/Gowin/wdt/src/regfile.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "regfile"
+   },
+   {
+    "InstFile" : "D:/Gowin/wdt/src/top.v",
+    "InstLine" : 108,
+    "InstName" : "wdt1",
+    "ModuleFile" : "D:/Gowin/wdt/src/wdt.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "watchdog_core"
+   }
+  ]
+ }
+]

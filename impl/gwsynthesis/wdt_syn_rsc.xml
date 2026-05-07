@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="watchdog_top" Register="2" Lut="3" T_Register="353(2)" T_Alu="88(0)" T_Lut="437(3)">
+ <SubModule name="sync1" Register="28" Lut="51" T_Register="28(28)" T_Lut="51(51)"/>
+ <SubModule name="sync2" Register="28" Lut="51" T_Register="28(28)" T_Lut="51(51)"/>
+ <SubModule name="uart1" T_Register="145(0)" T_Alu="8(0)" T_Lut="198(0)">
+  <SubModule name="rx1" Register="33" Lut="61" T_Register="33(33)" T_Lut="61(61)"/>
+  <SubModule name="engine1" Register="81" Alu="8" Lut="87" T_Register="81(81)" T_Alu="8(8)" T_Lut="87(87)"/>
+  <SubModule name="tx1" Register="31" Lut="50" T_Register="31(31)" T_Lut="50(50)"/>
+ </SubModule>
+ <SubModule name="reg1" Register="89" Lut="11" T_Register="89(89)" T_Lut="11(11)"/>
+ <SubModule name="wdt1" Register="61" Alu="80" Lut="123" T_Register="61(61)" T_Alu="80(80)" T_Lut="123(123)"/>
+</Module>

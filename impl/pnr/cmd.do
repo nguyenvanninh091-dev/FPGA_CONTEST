@@ -1,0 +1,17 @@
+-d D:\Gowin\wdt\impl\gwsynthesis\wdt.vg
+-p GW1N-1P5C-QFN48XF-7
+-pn GW1N-UV1P5QN48XFC7/I6
+-cst D:\Gowin\wdt\src\wdt.cst
+-cfg D:\Gowin\wdt\impl\pnr\device.cfg
+-sdc D:\Gowin\wdt\src\wdt.sdc
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-place_option 0
+-route_option 0
+-clock_route_order 0
+-correct_hold 1
+-route_maxfan 10
+-global_freq 50.000

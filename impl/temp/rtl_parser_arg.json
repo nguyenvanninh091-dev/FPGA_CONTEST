@@ -1,0 +1,45 @@
+{
+ "Device" : "GW1N-1P5C",
+ "Files" : [
+  {
+   "Path" : "D:/Gowin/wdt/src/debounce.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin/wdt/src/regfile.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin/wdt/src/top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin/wdt/src/uart.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin/wdt/src/uart_engine.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin/wdt/src/uart_rx.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin/wdt/src/uart_tx.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin/wdt/src/wdt.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "D:/Gowin/wdt/impl/temp/rtl_parser.result",
+ "Top" : "watchdog_top",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}
