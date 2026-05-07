@@ -147,9 +147,10 @@ python serial_monitor.py
 
 ## 11. Mô phỏng
 # Dùng ModelSim
-vsim work.tb_watchdog_top
-run -all
-```
+
+1. vsim work.tb_watchdog_top
+2. run -all
+
 ## 12. Github
 
 link : https://github.com/nguyenvanninh091-dev/FPGA_CONTEST.git
