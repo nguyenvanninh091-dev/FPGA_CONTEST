@@ -15,15 +15,8 @@ UART_RX ──────► [Engine] ─────┼────► │ (Re
                               │      └───────────────┘      └──────────┘
 UART_TX ◄────── [Engine] ─────┘
 ```
-S1 (Kick)   ──► [Debounce] ──┐      ┌───────────────┐      ┌──────────┐
-                             ├────► │               │ ────►│ D3 (WDO) │
-S2 (Enable) ──► [Debounce] ──┤      │ Watchdog Core │      └──────────┘
-                             │      │               │      ┌──────────┐
-UART_RX     ──► [Engine]   ──┼────► │   (Regfile)   │ ────►│ D4 (ENOUT)
-                             │      └───────────────┘      └──────────┘
-UART_TX     ◄── [Engine]   ──┘
 
-### Module chức năng
+## 1. Module chức năng
 
 | Tên Module | Vai trò chính |
 | :--- | :--- |
@@ -156,7 +149,7 @@ python serial_monitor.py
 # Dùng ModelSim
 vsim work.tb_watchdog_top
 run -all
-
+```
 ## 12. Github
 
 link : https://github.com/nguyenvanninh091-dev/FPGA_CONTEST.git
